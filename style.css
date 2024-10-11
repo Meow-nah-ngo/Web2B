@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family :"Josefin Sans", sans-serif;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+}
+
+body{
+    background-color: #fff;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header{
+    position: relative;
+    background-color: #153F33;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    align-items:center;
+    z-index: 100;
+    text-align:center;
+    animation: fade-down 0.5s 0.4s backwards;
+}
+
+.logo{
+    font-size: 3em;
+    color:#A5C1A5;
+    pointer-events: none;
+    margin-top: 50px; /* Adjust as needed */
+    animation: fade-down 0.5s 0.4s backwards;
+}
+.navigation a {
+    text-decoration: none;
+    color: #A5C1A5;
+    border-radius: 20px;
+    margin: 0 20px;
+    font-weight: 400;
+}
+.navigation a:hover {
+    background: #007F74;
+    color:aliceblue;
+}
+
+@keyframes fade-down {
+    0%{
+       opacity: 0;
+       transform: translateY(-30px) scale(0.9);  
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
