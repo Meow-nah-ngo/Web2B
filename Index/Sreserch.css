@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family :"Josefin Sans", sans-serif;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+}
+
+body{
+    background-color: #fff;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.Research h1{
+    position: relative;
+    color: #153F33;
+    font-size: 4em;
+    padding: 100px;
+    background-color: #F0F2FC;
+}
+
+.Mid{
+    color: #153F33;
+    background-color: #F0F2FC;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    padding: 0 200px;
+}
+.MidJam{
+    margin: 0px 20px;
+    font-size: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.research1,.research2,.research3{
+    padding: 0 80px;
+    position: relative;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+.research-container{
+    display: flex;
+    color: #153F33;
+    justify-content: space-between;
+    padding: 100px 200px;
+    background-color: #F0F2FC;
+}
+
+.OURMEDIAWORKS{
+    display: flex;
+    color: #153F33;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+}
+.OURMEDIAWORKS h1{
+    font-size: 3em;
+    padding-right: 30px;
+}
+.OURMEDIAWORKS h2 {
+    font-size: 2em;
+    font-weight: 200;
+}

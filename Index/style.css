@@ -32,16 +32,29 @@ header p{
 }
 
 .fix{
-    border: #007F74;
-    border-style: solid;
     color: #fff;
     position: relative;
+    text-align: center;    
+}
+
+.topic{
+    display: flex;
+    justify-content: space-around; /* Center the topic items */
+    align-items: center; /* Vertically align items */
+    text-align: center;
+    flex-direction: row;
+    padding: 0 20px;
+}
+.header-topic{
+    flex: 1;
+    padding: 10px;
 }
 
 header h3{
     color: #fff;
     border: #A5C1A5;
     background-color: #A5C1A5;
+    font-size: 1em;
     padding: 0px 10px;
     border-radius: 10px;
     border-style: solid;
@@ -62,6 +75,7 @@ header h3{
     margin: 0 20px;
     font-weight: 400;
 }
+
 .navigation a:hover {
     background: #007F74;
     color:aliceblue;

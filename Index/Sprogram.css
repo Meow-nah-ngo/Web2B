@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family :"Josefin Sans", sans-serif;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+}
+
+body{
+    background-color: #fff;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.MediaArts-content h3,.MediaTechnology-content h3,.MedicalAndScienceMedia-content h3{
+    color: #fff;
+    border: #A5C1A5;
+    background-color: #A5C1A5;
+    font-size: 1em;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border-style: solid;
+    display: inline-block;
+    filter: drop-shadow(1px 3px 4px #7e7e7e);
+}
+
+.MediaArts,.MedicalAndScienceMedia{
+    background-color: #F0F2FC;
+    color: #153F33;
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Align items to the start */
+    padding: 100px 200px; /* Add padding */
+}
+
+.MediaTechnology {
+    background-color: #ffffff;
+    color: #153F33;
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Align items to the start */
+    padding: 100px 200px; /* Add padding */
+}
+
+.MediaArts-logo,.MediaTechnology-logo,.MedicalAndScienceMedia-logo {
+    width: 500px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 100px; /* Add space between image and text */
+}
+
+.MediaArts-content,.MediaTechnology-content,.MedicalAndScienceMedia-content {
+    flex: 1; /* Allow text content to take up remaining space */
+    text-align: left; /* Align text to the left */
+    padding-left: 20px; /* Add padding for better spacing */
+}
+
+.MediaArts-content h1,.MediaTechnology-content h1,.MedicalAndScienceMedia-content h1{
+    font-size: 5em;
+}
+.MediaArts-content h2,.MediaTechnology-content h2,.MedicalAndScienceMedia-content h2{
+    font-size: 2em;
+}
+.MediaArts-content p,.MediaTechnology-content p,.MedicalAndScienceMedia-content p{
+    padding: 20px 0px;
+}
+
+.News{
+    font-size: 2em;
+    color: #153F33;
+    padding: 50px;
+}
+.MediaNews h1 {
+    position: relative;
+    padding: 100px 100px;
+    align-items:flex-start;
+    display: flex;
+    justify-content: space-between;
+    font-size: 5em;
+    color: #153F33;
+}
+.MediaNews{
+    display: flex;
+    padding: 0px 300px;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+.MediaNews-item{
+    margin-bottom: 20px;
+}
+.Top-pic {
+    width: 300px;
+    height: auto;
+}
+.MediaNew-content {
+    width: 200px; /* Consistent width for content */
+    margin: 10px auto; /* Center content under the image */
+    color: #153F33;
+    padding-bottom: 50px;
+}

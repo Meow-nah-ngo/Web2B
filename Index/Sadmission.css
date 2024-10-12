@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family :"Josefin Sans", sans-serif;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+}
+
+body{
+    background-color: #F0F2FC;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.Admission h1{
+    padding: 50px;
+    font-size: 5em;
+    color: #153F33;
+    align-items: center;
+    text-align: center;
+}
+.Ad1{
+    width: 800px;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    display: block;
+    margin: 0 auto; /*Y,X*/
+}
+
+.Slide1-content h2,.Slide2-content h2,.Slide3-content h2{
+    font-size: 2em;
+    color: #153F33;
+    align-items: center;
+    text-align: left;
+}
+.Slide1-content p,.Slide2-content p,.Slide3-content p{
+    padding: 20px;
+    align-items: center;
+    text-align: left;
+    font-size: larger;
+}
+.Slide1-content h3,.Slide2-content h3,.Slide3-content h3{
+    padding: 20px;
+}
+.Slide1,.Slide2,.Slide3{
+    display: flex;
+    padding: 200px;
+    color: #153F33;
+}
+
+.Add1,.Add2,.Add3{
+    width: 800px;
+    height: auto;
+    margin-right: 50px;
+}
